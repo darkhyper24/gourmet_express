@@ -1,6 +1,6 @@
 # minutes of meetings document
 
-## meeting
+## meeting 1
 
 - date:29/11/2023
 
@@ -29,3 +29,32 @@
 - date:5/12/2023
 
 - goals:editing functional requirements document and assigning some of them to each member of the team 
+
+## meeting 2
+
+- date 5/12/2023
+
+- staring time: 8:41
+
+- ending time: 9:37
+
+# attendees
+
+- @zeyad waleed7 (zeyad waleed)
+- @ahmed-2451 (ahmed khaled)
+- @darkhyper24 (mohammed moataz)
+
+# agenda
+
+- the goals of this meeting is to edit functional requirments document
+
+# actions
+
+- we changed 10 of the functional requirements to coop with the time limit of the next phase
+
+# next meeting 
+
+- date: 12/5/2023
+
+- goals: follow up with the changes to the project and see the progress of the project
+

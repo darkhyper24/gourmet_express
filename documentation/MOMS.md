@@ -58,3 +58,59 @@
 
 - goals: follow up with the changes to the project and see the progress of the project
 
+## meeting 3
+
+- date 5/12/2023
+
+- staring time: 9:00
+
+- ending time: 9:45
+
+# attendees
+
+- @zeyad waleed7 (zeyad waleed)
+- @darkhyper24 (mohammed moataz)
+
+# agenda
+
+- goals: follow up with the changes to the project and see the progress of the project
+
+# actions
+
+- we assigned the functionalities and the GUI to team members.
+
+# next meeting
+
+- date 16/12/2023
+
+- goals:check the progress of the project and updating sprint tasks
+
+## meeting 4
+
+- date:16/12/2023
+
+- starting time: 10:00
+
+ending time: 10:30
+
+# attendees
+
+- @zeyad waleed7 (zeyad waleed)
+- @darkhyper24 (mohammed moataz)
+- @ahmed-2451 (ahmed khaled)
+
+# agenda
+
+- goals: check the progress of the project and updating sprint tasks
+
+# actions
+
+- sprints issues were uploaded on github.
+- we used templates and adjusted it for the project and used html,css and java script in the making of the front end.
+- we debated about converting the backend to asp.net and c# but in the end we estimated tha the shift will be too dangerous to make as the github wasn't linked to asp.net and alot of conflicts would have happened.
+
+# next meeting
+
+date: 19/12/2023
+
+goals:follow up on the project progress and adjust accordingly

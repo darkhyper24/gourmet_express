@@ -16,6 +16,7 @@ body {
     max-width: 400px;
     text-align: center;
     margin: auto;
+    justify-content: flex-start;
 }
 
 .card {
@@ -47,8 +48,8 @@ input {
 }
 
 button {
-    background-color: #4654fe;
-    color: #fff;
+    background-color: #000000;
+    color: #ffffff;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -57,10 +58,10 @@ button {
 }
 
 button:hover {
-    background-color: #29dcfc;
+    background-color: #00ff91;
+    color: #000000;
 }
 
-/* Add styles for the "Have account login" text */
 p {
     margin-top: 20px;
     font-size: 14px;
@@ -69,9 +70,9 @@ p {
 a {
     text-decoration: underline;
     font-weight: bold;
-    color: #4654fe; /* Use the same color as the button for consistency */
+    color: #000000;
 }
 
 a:hover {
-    color: #29dcfc; /* Change color on hover for visual feedback */
+    color: #00ff91;
 }

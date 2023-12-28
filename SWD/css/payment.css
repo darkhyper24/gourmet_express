@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700");
 
-/* Variables */
 :root {
   --gradient: linear-gradient(135deg, rgba(91, 36, 122, 0.45) 0%, rgba(27, 206, 223, 0.55) 100%);
   --shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -8,7 +7,6 @@
   --secondary: #66cc99;
 }
 
-/* Resetting Styles */
 html,
 body {
   width: 100%;
@@ -33,13 +31,13 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    text-decoration: none; /* Remove underline for the link */
+    text-decoration: none;
   }
   
   .navbar-brand span {
     font-size: 28px;
     font-weight: bold;
-    color: #4855fe;
+    color: #000000;
   }
 
 #main {
@@ -121,7 +119,7 @@ body {
 }
 
 #right form button[type="submit"] {
-  background-color: #4654fe;
+  background-color: #000000;
   padding: 5px;
   border: none;
   border-radius: 50px;
@@ -132,8 +130,8 @@ body {
 }
 
 #right form button[type="submit"]:hover {
-  background-color: #003348;
-  color: white;
+  background-color: #00ff91;
+  color: rgb(0, 0, 0);
 }
 
 
@@ -143,7 +141,7 @@ body {
     left: 0;
     width: 100%;
     text-align: center;
-    background-color: #4654fe;
+    background-color: #000000;
   }
   
   .footer_section p {

@@ -250,7 +250,7 @@ textarea.form-control {
 .form-control:hover, .form-control:focus, .form-control:active {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  border: 2px solid #4855fe;
+  border: 2px solid #00ff91;
 }
 
 .site-nav-toggle {
@@ -344,7 +344,7 @@ textarea.form-control {
 
 .section-heading .small-sub-heading {
   font-size: 14px;
-  color: #4855fe;
+  color: #00ff91;
 }
 
 @media (min-width: 992px) {
@@ -403,7 +403,7 @@ textarea.form-control {
 .ftco-46 .ftco-46-subheading {
   font-size: 14px;
   color: #b3b3b3;
-  color: #4855fe;
+  color: #00ff91;
   text-transform: uppercase;
   letter-spacing: .2em;
 }
@@ -619,9 +619,9 @@ textarea.form-control {
 
 .site-tab-nav li a.active {
   color: black;
-  color: #4855fe;
+  color: #00ff91;
   background: none;
-  border-bottom: 2px solid #4855fe;
+  border-bottom: 2px solid #00ff91;
 }
 
 .site-tab-nav, .nav-pills {
@@ -673,7 +673,7 @@ textarea.form-control {
 }
 
 .menu-food-item .price strong {
-  color: #4855fe;
+  color: #00ff91;
   font-size: 20px;
 }
 
@@ -697,7 +697,7 @@ textarea.form-control {
 }
 
 .footer-contact-widget .contact-email {
-  color: #4855fe;
+  color: #00ff91;
 }
 
 .footer-contact-widget .contact-phone {
@@ -741,7 +741,7 @@ textarea.form-control {
 
 .custom-icon {
   font-size: 70px;
-  color: #4855fe;
+  color: #00ff91;
 }
 
 .form-subscribe .form-group {
@@ -872,7 +872,7 @@ textarea.form-control {
 }
 
 .owl-carousel.centernonloop .owl-dots .owl-dot.active {
-  background: #4855fe;
+  background: #00ff91;
 }
 
 .owl-carousel.centernonloop .owl-dots .owl-dot:active, .owl-carousel.centernonloop .owl-dots .owl-dot:focus {
@@ -1009,11 +1009,11 @@ textarea.form-control {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  background: #ff7a5c;
+  background: #00ff91;
 }
 
 .owl-carousel.home-slider-loop-false .owl-dots .owl-dot.active {
-  border: 2px solid #ff7a5c;
+  border: 2px solid #00ff91;
 }
 
 .owl-carousel.home-slider-loop-false .owl-dots .owl-dot.active span {
@@ -1207,7 +1207,7 @@ textarea.form-control {
   margin: 0;
   border-radius: 50% !important;
   font-size: 16px;
-  background: #4855fe;
+  background: #00ff91;
   color: #fff;
 }
 
@@ -1386,7 +1386,7 @@ textarea.form-control {
 
 .menus .item .text .price {
   font-size: 30px;
-  color: #4855fe;
+  color: #00ff91;
   opacity: 1;
 }
 
@@ -1790,4 +1790,26 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
   }
+}
+
+.add-to-cart-button {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #00ff91;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-to-cart-button i {
+  margin-right: 8px;
+}
+
+.add-to-cart-button:hover {
+  background-color: #00ff91;
 }

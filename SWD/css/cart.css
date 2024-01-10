@@ -1,94 +1,129 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-image: url(../images/backgroundcart.png);
+body{
+    background: linear-gradient(110deg, #01fe91 60%,#000000  60%);                        
+}
+  
+.shop{
+    font-size: 10px;
 }
 
-.card {
-    width: 70%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    background-color: white; /* Set the background color to white */
+.space{
+    letter-spacing: 0.8px !important;
 }
 
-header {
+.second a:hover {
+    color: rgb(92, 92, 92) ;
+}
+
+.active-2 {
+    color: #01fe91; 
+}
+
+
+.breadcrumb>li+li:before {
+    content: "" !important
+}
+
+.breadcrumb {
+    padding: 0px;
+    font-size: 10px;
+    color: #aaa !important;
+}
+
+.first {
+    background-color: white ;
+}
+
+a {
+    text-decoration: none !important;
+    color: #363434 ;
+}
+
+.btn-lg,.form-control-sm:focus,
+.form-control-sm:active,
+a:focus,a:active {
+    outline: none !important;
+    box-shadow: none !important
+}
+
+.form-control-sm:focus{
+    border:1.5px solid #01fe91 ; 
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: .5rem 0.1rem;
+    font-size: 1rem;
+    border-radius: 0;
+    color: white !important;
     background-color: #000000;
-    color: #fff;
-    text-align: center;
-    padding: 1em;
+    height: 2.8rem !important;
+    border-radius: 0.2rem !important;
 }
 
-nav {
-    position: relative;
+.btn-group-lg>.btn:hover, .btn-lg:hover {
+    background-color: #01fe91;
+    color: rgb(0, 0, 0) !important;
 }
 
-.brand-container {
-    position: absolute;
-    top: 10px;
-    left: 20px;
-    z-index: 1000; /* Set a higher z-index to ensure it's above other elements */
+.btn-outline-primary{
+    background-color: #fff !important;
+    color:#000000 !important;
+    border-radius: 0.2rem !important;   
+    border:1px solid #000000;
 }
 
-.navbar-brand {
-    text-decoration: none;
+.btn-outline-primary:hover{
+    background-color:#01fe91  !important;
+    color:#000000 !important;
+    border:1px solid #01fe91;
 }
 
-.navbar-brand span {
-    font-size: 28px;
-    font-weight: bold;
-    color: #ffffff;
+.card-2{
+    margin-top: 40px !important;
 }
 
-section {
-    margin: 20px;
+.card-header{
+    background-color: #ffffff;
+    border-bottom:0px solid #000000aa !important;
 }
 
-#total {
-    font-size: 18px; /* Adjust the font size as needed */
-    font-weight: bold;
+p{
+    font-size: 13px ;
+}
+        
+.small{
+    font-size: 9px !important;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+.form-control-sm {
+    height: calc(2.2em + .5rem + 2px);
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: 0;   
 }
 
-li {
-    margin-bottom: 10px;
-}
-
-button {
+.cursor-pointer{
     cursor: pointer;
 }
 
-.delete-btn {
-    background-color: white;
-    color:  #ff5757;
-    padding: 8px;
-    border: none;
-    border-radius: 4px;
+.boxed {
+    padding: 0px 8px 0 8px ;
+    background-color: #01fe91;
+    color: rgb(0, 0, 0);
 }
 
-.checkout-btn, .add-to-cart-btn {
-    background-color: #000000;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
+.boxed-1{
+    padding: 0px 8px 0 8px ;
+    color: black !important;
+    border: 1px solid #000000aa;
 }
 
-.checkout-btn:hover {
-    background-color: rgb(0, 255, 145);
-    color: #000000;
-    transition: background-color 0.3s, color 0.3s; 
+.bell{
+    opacity: 0.5;
+    cursor: pointer;
 }
 
-
-.fa-trash {
-    margin-right: 5px;
+@media (max-width: 767px) {
+    .breadcrumb-item+.breadcrumb-item {
+        padding-left: 0
+    }
 }
